@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="style/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <script src="menu.js" defer></script>
+
+        <title>JVN</title>
+    </head>
+    <body style="background-color: #202022;">
+        <header id="comesso">
+            <div class="interface">
+                <div class="logo">
+                    <a href="#comesso">
+                        <img src="imagens/jvn.png" alt="JVN">   
+                    </a>
+                </div>
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="#inicio" class="link">Início</a></li>
+                        <li><a href="#habilidades" class="link">Habilidades</a></li>
+                        <li><a href="#sobre" class="link">Sobre</a></li>
+                        <li><a href="#Portifólio" class="link">Projetos</a></li>
+                    </ul>
+                </nav>
+                <div class="btn-contato">
+                    <a href="#contato">
+                        <button>Contato</button>
+                    </a>
+                </div>
+
+                <div class="btn-abrir-menu" id="btn-menu">
+                    <i class="bi bi-list"></i>
+                </div>
+
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-fechar">
+                        <i class="bi bi-x-circle"></i>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#Portifólio">Projetos</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="overlay-menu" id="overlay-menu"></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="topo-do-site" id="inicio">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="texto-site">
+                            <h1>Bem-vindo ao meu <span>Portifólio</span></h1>
+                            <p>Sou um Web designer dedicado à 
+                                criação de páginas de web, logomarcas
+                                entre outras atividades da área.
+                                Sou apaixonado, trabalhador e
+                                extremamente motivado.
+                            </p>
+                            <div class="btn-contato">
+                                <a href="#contato">
+                                    <button>Entre em contato</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="imagem-site">
+                            <img src="imagens/PC.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Habilidades" id="habilidades">
+                <div class="interface">
+                    <h2 class="titulo">HABILIDADES</h2>
+                    <div class="flex">
+                        <div class="habilidades-box">
+                            <i class="bi bi-code-slash"></i>
+                            <h3>Linguagens</h3>
+                            <p>Possuo conhecimentos de lógica de programação, com familiaridade com as linguagens C, C#, PHP e SQL além de formação em web design com uso de HTML e CSS.</p>
+                        </div>
+                        <div class="habilidades-box">
+                            <i class="bi bi-vector-pen"></i>
+                            <h3>Design</h3>
+                            <p>Tenho conhecimento em web design e design gráfico, com experiência em Photoshop e 
+                                Illustrator(O design deste site e suas ilustrações (com exceção dos svg) são de cunho autoral).</div>
+                        <div class="habilidades-box">
+                            <i class="bi bi-trello"></i>
+                            <h3>Metodologia ágil</h3>
+                            <p>Já tive a experiência de trabalhar com metodologia ágil em projetos de faculdade, tendo de administrar o Trello e conhecendo mais de suas funções.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sobre" id="sobre">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="img-sobre">
+                            <img src="imagens/jao.jpg" alt="">
+                        </div>
+                        <div class="texto-sobre">
+                            <h2>MEU NOME É <span>JOÃO VICTOR NICACIO</span></h2>
+                            <p>Sou um jovem de 21 anos dedicado ao desenvolvimento de web sites, com formação em programação para web(Etec Lauro Gomes) e design gráfico(SAGA Escola de design digital), atualmente fazendo faculdade de jogos digitais(Fatec Antonio Russo).
+                            </p>
+                            <p>
+                                Estou na busca de entrar na area de desenvolvimento de sites, tenho bastante conhecimento com HTML e CSS, além de algumas linguagens de programação como PHP, SQL, C e C#,tambem tenho bastante conhecimento das ferramentas Adobe Photoshop e Illustrator.
+                            </p>
+                            <div class="btn-social">
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-nic%C3%A1cio-12744221a" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href="https://j-v-n.itch.io" target="_blank"><button><i class="fab fa-itch-io"></i></button></a>
+                                <a href="https://github.com/JVN2002" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Portifólio mySwiper" id="Portifólio">
+                <div class="interface">
+                    <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="img-port d-block w-100" style="background-image: url(imagens/carrossel/e-employer.jpeg);">
+                                <div class="overlay">LAYOUT TCC</div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="img-port d-block w-100" style="background-image: url(imagens/carrossel/logos.png);">
+                                <div class="overlay">LOGOTIPOS</div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="img-port d-block w-100" style="background-image: url(imagens/carrossel/artes.png);">
+                                <div class="overlay">ARTES DIGITAIS</div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="https://j-v-n.itch.io" target="_blank">
+                                <div class="img-port d-block w-100" style="background-image: url(imagens/carrossel/jogos.png);">
+                                    <div class="overlay">JOGOS</div>
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="formulario" id="contato">
+                <div class="interface">
+                    <h2 class="titulo">FALE <span>COMIGO</span></h2>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="hidden" name="accessKey" value="aede1dd2-d30f-4cfd-b19a-7cb24b9d681e">
+                        <input type="text" name="name" id="" placeholder="Seu nome:" required>
+                        <input type="email" name="email" id="" placeholder="Seu e-mail:" required>
+                        <input type="tel" name="phone" id="" placeholder="Seu celular:">
+                        <textarea name="message" id="" placeholder="Sua mensagem" required></textarea>
+                        <div class="btn-enviar">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="interface">
+                <div class="line-rodape">
+                    <div class="flex">
+                        <div class="logo">
+                            <a href="#comesso">
+                                <img src="imagens/jvn.png" alt="LOGO">
+                            </a>
+                        </div>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-nic%C3%A1cio-12744221a" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://j-v-n.itch.io" target="_blank"><button><i class="fab fa-itch-io"></i></button></a>
+                            <a href="https://github.com/JVN2002" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-rodape borda">
+                    <p><i class="bi bi-envelope"></i> <a href="mailto:jv.nicacio064@gmail.com">jv.nicacio064@gmail.com</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

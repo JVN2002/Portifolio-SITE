@@ -1,0 +1,1 @@
+let btnMenu=document.getElementById("btn-menu"),menu=document.getElementById("menu-mobile"),overlay=document.getElementById("overlay-menu");btnMenu.addEventListener("click",()=>{menu.classList.add("abrirMenu")}),menu.addEventListener("click",()=>{menu.classList.remove("abrirMenu")}),overlay.addEventListener("click",()=>{menu.classList.remove("abrirMenu")});
